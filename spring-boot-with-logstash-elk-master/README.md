@@ -3,6 +3,9 @@ first need to download and then install elasticsearch, kibana, logstash and file
 
 then first run the elasticsearch and kibana -
 
+    Run bin\elasticsearch.bat on Windows
+    Run bin\kibana.bat on Windows
+
     to check elasticsearch is up hit the url: http://localhost:9200
     to check kibana is up hit the url: http://localhost:5601
 
