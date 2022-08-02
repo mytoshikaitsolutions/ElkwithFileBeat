@@ -1,12 +1,14 @@
 # Springboot Integrate With ELK
 first need to download and then install elasticsearch, kibana, logstash and filebeat using with this url : https://www.elastic.co/downloads/
 
-then first run the elasticsearch and kibana 
+then first run the elasticsearch and kibana -
+
     to check elasticsearch is up hit the url: http://localhost:9200
     to check kibana is up hit the url: http://localhost:5601
 
 update the logstash-sample.conf file with attached conf file of this application and then run logstash with using below command:
     ./logstash -f /path/logstash-sample.conf
+
 
 then update the filebeat.yml file with the attached yml file of this application and then run filebeat with using below command:
     ./filebeat -c filebeat.yml
